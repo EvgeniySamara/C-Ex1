@@ -29,3 +29,4 @@ public class Answer
         ShowCube(N);
     }
 }
+

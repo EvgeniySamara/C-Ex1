@@ -5,14 +5,29 @@ public class Answer
     public static int SumOddElements(int[] array)
     {
 // Введите свое решение ниже
-
-
+    int sum =0;
+    for (int i=0;i<array.Length;i++)
+    if (i%2!=0)
+    {
+        sum+=array[i];
+    }
+    return sum;
     }
 
     public static void PrintArray(int[] array)
-    {
-         // Введите свое решение ниже
+   {
+    // Введите свое решение ниже
 
+    for (int i=0;i<array.Length;i++)
+    {
+        if (i<array.Length-1) 
+        {
+        System.Console.Write($"{array[i]}\t");
+       
+        }
+    else  {System.Console.Write($"{array[i]}");}
+    }
+    System.Console.WriteLine();
 
     }
 
